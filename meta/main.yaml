@@ -1,0 +1,28 @@
+galaxy_info:
+  role_name: yum-update
+  author: Alex H
+  description: Update and optionally reboot machines if required
+
+  license: license (BSD)
+
+  min_ansible_version: 2.0
+
+  github_branch: main
+
+  platforms:
+  - name: Fedora
+    versions:
+    - 32
+    - 33
+    - 34
+  - name: RHEL
+    versions:
+    - 7
+    - 8
+
+  galaxy_tags:
+    - linux
+    - yum
+    - dnf
+
+dependencies: []

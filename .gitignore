@@ -1,0 +1,5 @@
+ansible.cfg
+inventory.ini
+playbook.yaml
+group_vars/
+host_vars/
